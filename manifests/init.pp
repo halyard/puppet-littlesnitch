@@ -4,7 +4,7 @@
 #
 class littlesnitch (
 ) {
-  package { 'little-snitch-nightly-halyard':
+  package { 'little-snitch-halyard':
     provider => 'brewcask',
     require  => Homebrew::Tap['halyard/casks']
   }
